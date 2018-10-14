@@ -1,0 +1,290 @@
+body, html {
+    /* height: 100%; */
+	margin: 0;
+	position: relative;
+	overflow-x: hidden;
+}
+
+/* Navigation Bar */
+
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: #D2D1D1;
+  padding-left: 375px;
+  width: 100vw;
+}
+
+.topnav-right {
+  float: right;
+  padding-right: 750px;
+}
+
+.topnav a {
+  float: left;
+  color: #585858;
+  text-align: center;
+  padding: 40px 16px;
+  text-decoration: none;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-family: Helvetica, Arial;
+  letter-spacing: 2px;	
+}
+
+.topnav-centered img {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  width: 12%;
+}
+
+.topnav a:hover {
+  color: red;
+}
+
+/* About page */
+
+.text {
+	overflow: hidden;
+	word-break: break-word;
+	padding: 75px 300px;
+	font-size: 13px;
+	font-family: Helvetica;
+	color: #8E8E8E;	
+}
+
+.project_description {
+	padding: 0px 0px 40px 0px;
+}
+
+.project_description span{
+	display: block;
+}
+
+.mission {
+	padding: 40px 0px;
+}
+
+.sammi_bio {
+	padding: 40px 0px;
+}
+
+.sammi_bio img {
+	float: left;
+	width: 45%;
+	height: auto;
+	padding-right: 50px;
+}
+
+/* Art work page */
+
+.image_gallery {
+	padding: 100px 315px;
+	padding-bottom: 300px;
+}
+
+div.gallery {
+    margin: 10px;
+	float: left;
+}
+
+div.gallery img {
+    width: 200px;
+	height: 200px;
+}
+
+div.desc {
+    padding: 5px;
+    text-align: center;
+}
+
+.button {
+	padding: 20px 41%;
+}
+
+.button_text {
+	/* Positioning and sizing */
+    display: block;
+    width: 200px;
+    
+    /* Padding and margins */
+    padding: 1em;
+    
+    /* Text styles */
+    color: black;
+    text-decoration: none;
+	text-align: center;
+    font-size: 1.2em;
+	font-family: Helvetica;
+    
+    /* Border styles */
+    border: 2px solid black;
+    border-radius: 10px;	
+	
+	-webkit-transition: background-color 0.5s, color 0.5s;
+}
+
+.button :hover{
+	background-color: black;
+	color: white;
+}
+
+/* Publication page */
+
+.publication {
+	font-size: 12px;
+	font-family: Helvetica;
+	padding: 100px 350px;
+	color: #8E8E8E;	
+}
+
+.artsu4 img {
+	float: right;
+	width: 38%;
+	height: auto;
+	padding-right: 50px;
+}
+
+.artsu4_text {
+	padding-top: 15px;
+}
+
+.artsu3 {
+	padding: 200px 0px;
+}
+
+.artsu3_text {
+	padding-top: 25px;
+}
+
+.artsu3 img {
+	float: right;
+	width: 38%;
+	height: auto;
+}
+
+.artsu2 img {
+	float: right;
+	width: 38%;
+	height: auto;
+}
+
+.artsu1 {
+	padding-top: 150px;
+}
+
+.artsu1_text {
+	padding-right: 350px;
+
+}
+
+.artsu1 img {
+	float: right;
+	width: 40%;
+	height: auto;
+	position: absolute;
+	padding-left: 400px;
+}
+
+.artsu1_images {
+	padding: 75px 0px 0px 350px;
+}
+
+.artsu1_images img {
+	width: 150%;
+	height: auto;
+	position: relative;
+}
+
+/* Press page */
+
+.press {
+	font-size: 12px;
+	font-family: Helvetica;
+	padding: 75px 300px;
+}
+
+.press_info{
+	padding-top: 40px;
+}
+
+.press h1 {
+	font-size: 12px;
+}
+
+.press a {
+	color: orange;
+	text-decoration: none;
+	padding: 40px 0px;
+}
+
+.press h2 {
+	font-size: 12px;
+	color: #9F9F9F;
+}
+
+/* Contact page */
+
+.contact {
+	font-size: 12px;
+	font-family: Helvetica;
+	color: #8E8E8E;
+	padding: 150px 250px;
+}
+
+.contact a {
+	color: orange;
+	text-decoration: none;
+}
+
+.contact img {
+	float: right;
+	width: 60%;
+	height: auto;
+	padding-top: 15px;
+}
+
+#english_description{
+	padding-top: 15px;
+}
+
+/* Footer */
+
+.footer {
+	height: 300px;
+    position: relative;
+    background-color: #BCBBBB;
+}
+
+.qr_codes {
+	padding: 75px 300px;
+}
+
+.qr_codes img {
+	width: 17%;
+	height:auto;
+	float: right;
+}
+
+.qr1 {
+	
+}
+
+.qr2 {
+	padding-left: 50px;
+}
+
+
+
+
+/* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+  
+}

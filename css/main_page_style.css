@@ -1,0 +1,95 @@
+body, html {
+    /* height: 100%; */
+	margin: 0;
+	position: absolute;
+	overflow-x: hidden;
+}
+
+/* Banner Image */
+
+.heroImage {
+	background-image: url("../images/almost_art_project_banner.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	width: 100vw;
+	height: 100vh;
+    position: relative;
+}
+
+/* Navigation bar */
+
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  padding-left: 335px;
+}
+
+.topnav a {
+  float: left;
+  color: #585858;
+  text-align: center;
+  padding: 35px 16px;
+  text-decoration: none;
+  font-size: 9px;
+  text-transform: uppercase;
+  font-family: Helvetica, Arial;
+  letter-spacing: 2px;	
+}
+
+.topnav-centered img {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 15%;
+}
+
+
+.topnav a:hover {
+  color: red;
+}
+
+.topnav-right {
+  float: right;
+  padding-right: 330px;
+}
+
+/* Footer */
+
+.footer {
+	height: 300px;
+    position: relative;
+    background-color: #BCBBBB;
+}
+
+.qr_codes {
+	padding: 75px 300px;
+}
+
+.qr_codes img {
+	width: 17%;
+	height:auto;
+	float: right;
+}
+
+.qr1 {
+	
+}
+
+.qr2 {
+	padding-left: 50px;
+}
+
+/* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+  
+}
+
+
